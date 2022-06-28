@@ -1,0 +1,377 @@
+/* <!--CSS：页面的静态样式  布局：字体  图片--> */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.head-block {
+    width: 100%;
+    height: 140px;
+    background-color: black;
+    border: 1px #141414 solid;
+
+}
+
+.head-logo {
+    width: 1000px;
+    height: 65px;
+    margin: 5px auto;
+}
+
+.head-menu {
+    width: 1000px;
+    height: 50px;
+    margin: 0px auto;
+}
+
+.menuitem {
+    list-style: none;
+    /*消失前面的点 */
+    color: white;
+    /*给字体添加颜色  白色 */
+    width: 8%;
+    /*设置浮动，并每个元素之间相隔8% */
+    float: left;
+    text-align: center;
+    /*元素的左右居中 */
+}
+
+ul li {
+    list-style: none;
+}
+
+
+ul li:hover {
+    color: red;
+}
+
+.scollblock {
+    width: 65%;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.scollimg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /*绝对定位*/
+    overflow: hidden;
+    /*隐藏溢出部分*/
+}
+
+.ulimg {
+    width: 300%;
+    height: 100%;
+    position: absolute;
+}
+
+.ulimg li {
+    float: left;
+}
+
+.scollimg img {
+    width: 650px;
+    height: 350px;
+}
+
+.pre,
+.next {
+    width: 40px;
+    height: 40px;
+    background-color: darkgray;
+    color: white;
+    position: absolute;
+    top: 130px;
+    font-size: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pre {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+.news-block {
+    width: 32%;
+    height: 300px;
+    background-color: #fafafa;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px
+}
+
+.news-title {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    /* 调整字体位置 */
+    font-size: 20px;
+    /*设置字体大小*/
+    line-height: 40px;
+}
+
+.news-list {
+    height: 260px;
+    background-color: #fafafa;
+    color: black;
+    font-size: 16px;
+    line-height: 26px;
+    /*行高*/
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+ol li {
+    list-style: none;
+    /*实现自然数隐藏*/
+}
+
+/*鼠标触碰后效果*/
+ol li:hover {
+    color: #006bb7;
+}
+
+a {
+    color: #141414;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #006bb7;
+}
+
+.newinfo {
+    width: 65%;
+    height: 450px;
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px
+}
+
+.newinfo-title {
+    width: 100%;
+    height: 40px;
+    color: black;
+    background: url("../imges/eye.png") no-repeat left -10px;
+    /*background-size:10% 140%;*/
+    line-height: 40px;
+}
+
+.first-row {
+    width: 100%;
+    height: 220px;
+}
+
+.imgblock {
+    width: 49%;
+    height: 220px;
+    float: left;
+    /*margin:外边距*/
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+    /*overflow: hidden;隐藏图片溢出部分*/
+    overflow: hidden;
+
+}
+
+.imgblock img {
+    width: 100%;
+    height: 100%;
+    /*transition: 1s;放大时间*/
+    transition: 1s;
+}
+
+.imgblock:hover img {
+    /*放大倍数*/
+    transform: scale(1.1);
+}
+
+.imgblock span {
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*background-color: aqua;*/
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    line-height: 30px;
+    padding-left: 5px;
+    /*将元素显示为块级元素*/
+    display: block;
+}
+
+.second-row {
+    width: 100%;
+    height: 180px;
+}
+
+.imgblock2 {
+    width: 32%;
+    height: 160px;
+    float: left;
+    /*margin:外边距*/
+    margin-top: 5px;
+    margin-left: 5px;
+    /*position: relative;*/
+    /*overflow: hidden;隐藏图片溢出部分*/
+    /*overflow: hidden;*/
+
+}
+
+
+.imgblock2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/*.imgblock2 span{*/
+/*width: 100%;*/
+/*height: 30px;*/
+/*color: white;*/
+/*background-color: rgba(0,0,0,0.5);*/
+/*!*background-color: aqua;*!*/
+/*font-size: 14px;*/
+/*position: absolute;*/
+/*bottom: -160px;*/
+/*line-height: 60px;*/
+/*padding-left: 5px;*/
+/*!*将元素显示为块级元素*!*/
+/*display:block;*/
+/*}*/
+
+.imgblock2 span {
+    font-size: 14px;
+}
+
+.unionrak-block {
+    width: 32%;
+    height: 450px;
+    background-color: white;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+#rankblock-first {
+    width: 100%;
+    height: 40px;
+}
+
+#movie {
+    width: 50%;
+    height: 40px;
+    /*添加浮动·*/
+    float: left;
+    /*设置字体颜色*/
+    color: white;
+    /*设置背景颜色*/
+    background-color: #141414;
+    font-size: 14px;
+    line-height: 40px;
+    /*把上下字体居中*/
+    text-align: center;
+    /*左右居中*/
+}
+
+#comic {
+    width: 50%;
+    height: 40px;
+    /*添加浮动·*/
+    float: left;
+    /*设置字体颜色*/
+    color: black;
+    /*设置背景颜色*/
+    background-color: white;
+    font-size: 14px;
+    line-height: 40px;
+    /*把上下字体居中*/
+    text-align: center;
+    /*左右居中*/
+}
+
+#rankblock-second {
+    width: 100%;
+    height: 40px;
+}
+
+#abroad {
+    width: 50%;
+    height: 40px;
+    /*添加浮动·*/
+    float: left;
+    /*设置字体颜色*/
+    color: red;
+    /*设置背景颜色*/
+    background-color: white;
+    font-size: 14px;
+    line-height: 40px;
+    /*把上下字体居中*/
+    text-align: center;
+    /*左右居中*/
+}
+
+#home {
+    width: 50%;
+    height: 40px;
+    /*添加浮动·*/
+    float: left;
+    /*设置字体颜色*/
+    color: black;
+    /*设置背景颜色*/
+    background-color: #fafafa;
+    font-size: 14px;
+    line-height: 40px;
+    /*把上下字体居中*/
+    text-align: center;
+    /*左右居中*/
+}
+
+#rankdata {
+    width: 100%;
+    /*height: 370px; 可写可不写，默认已经是370px*/
+}
+
+/*标签选择器，可以直接写，不需要加#或者.*/
+table {
+    width: 100%;
+
+}
+
+/*th:标头 添加背景颜色*/
+table th {
+    background-color: #e5e5e5;
+}
+
+table tr {
+    background-color: #e5e5e5;
+    line-height: 32px;
+    text-align: center;
+}
+
+/*even设置偶数行的颜色
+  odd设置奇数行的颜色*/
+table tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+table tr:hover {
+    background-color: lightblue;
+}
